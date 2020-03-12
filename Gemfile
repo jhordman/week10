@@ -4,13 +4,14 @@ gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'sequel'
 
-group :development do
-    gem 'sqlite3'
-end
-group :production do
-    gem 'pg'
+group :development do 
+ gem 'sqlite3'
 end
 
-gem 'sqlite3'
+group :production do
+  gem 'pg'
+end
+
+
 gem 'twilio-ruby'
 gem 'bcrypt'
