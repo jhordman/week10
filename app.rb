@@ -25,7 +25,7 @@ end
 
 get "/send_text" do
     accound_sid = ENV["TWILIO_ACCOUNT_SID"]
-
+end
 # homepage and list of events (aka "index")
 get "/" do
     puts "params: #{params}"
